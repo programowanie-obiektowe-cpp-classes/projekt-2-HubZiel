@@ -1,6 +1,6 @@
-#include "PrintHello.hpp"
-
-int main()
-{
-    printHello();
-}
+//#include "PrintHello.hpp"
+//
+//int main()
+//{
+//    printHello();
+//}

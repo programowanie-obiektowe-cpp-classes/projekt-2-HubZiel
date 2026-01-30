@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 3.20)
 project(cpp-project CXX)
 
 file(GLOB_RECURSE SRC_FILES "${CMAKE_SOURCE_DIR}/src/*.cpp")
-add_executable(cpp-project ${SRC_FILES})
+add_executable(cpp-project ${SRC_FILES} "src/aoc7_2024_1.cpp" "src/aoc7_2024_2.cpp" "src/aoc7_2023_1.cpp" "src/aoc7_2023_2.cpp")
 target_include_directories(cpp-project PUBLIC "${CMAKE_SOURCE_DIR}/include")
 set_target_properties(cpp-project PROPERTIES CXX_STANDARD 23)
 if(MINGW)
